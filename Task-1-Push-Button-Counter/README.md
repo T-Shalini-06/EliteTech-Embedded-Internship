@@ -8,12 +8,10 @@ Design a simple embedded system to count and display the number of times a push 
 - 16x2 LCD
 - Potentiometer
 - Push Button
-- 10k Resistor
-- Breadboard
 - Jumper Wires
 
 ## Working Principle
-Each time the push button is pressed, the microcontroller detects the input and increments the counter. The updated count is displayed on the LCD screen.
+The push button is connected using Arduino’s internal pull-up resistor configuration. When the button is pressed, the microcontroller detects a LOW signal and increments the counter. The updated count is then displayed on the 16x2 LCD screen.
 
 ## Simulation Platform
 Tinkercad Circuits
